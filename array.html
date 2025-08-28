@@ -6,6 +6,71 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <p>the result is:</p>
+<p id="red"></p>
+<p id="green"></p>
+<button onclick="myfun()">click me</button>
+    <script>
+        function myfun(){
+        let array=["name","janani","yeah","red","blue","green","age","sathish","you","me"]
+        let getdata=prompt("enter here");
+        let text;
+        let a;
+
+        // for(i=0; i<10; i++){
+        //     text += array[i];
+        //     document.getElementById('red').innerHTML=array[9];
+        // }
+        switch(getdata){
+            case "name":
+                 text=array[0];
+                 a="index[0]";
+                 break;
+            case "janani":
+                text=array[1];
+                a="index[1]"
+                break;
+            case "yellow":
+                 text=array[2];
+                  a="index[2]"
+                 break;
+            case "red":
+                text=array[3];
+                 a="index[3]"
+                break;
+            case "blue":
+                 text=array[4];
+                  a="index[4]"
+                 break;
+            case "green":
+                text=array[5];
+                 a="index[5]"
+                break;
+            case "age":
+                 text=array[6];
+                  a="index[6]"
+                 break;
+            case "sathish":
+                text=array[7];
+                 a="index[7]"
+                break;
+            case "you":
+                 text=array[8];
+                  a="index[8]"
+                 break;
+            case "me":
+                text=array[9];
+                 a="index[9]"
+                break;
+                default:
+                    text="oops! no match found!";
+                    a="stop it man*"
+        }
+        document.getElementById('red').innerHTML=text;
+        document.getElementById("green").innerHTML=a;
+        
+        }
+
+    </script>
 </body>
 </html>
