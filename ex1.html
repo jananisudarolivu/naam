@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ex</title>
+    </head>
+    <body>
+        <p id="red"></p>
+        <script>
+            // var num1=3;
+            // num2=3;
+            // z=num1+num2;
+            // console.log(z);
+            // z=num1-num2;
+            // console.log(z);
+            // z=num1*num2;
+            // console.log(z);
+            // z=num1/num2;
+            // console.log(z);
+
+            // num1=3;
+            // num2=2;
+            // z=num1 % num2;
+            // console.log(z);
+
+            // let x=prompt("");
+            // console.log(++x);
+            // let y=prompt("");
+            // console.log(++y);
+
+            // x=prompt("");
+            // x=5
+            // let z;
+            // for(x=1;x<19;x++)
+           
+//             if(x<=18 && x<=){
+//                 z="not eligible for vote";
+//             }
+//             // else if(x<=19 && x>=100){
+//             //     z="eligible for vote";
+//             // }
+//                else{
+//                 z="enter number";
+//                }
+//  console.log(z)
+               i=prompt("");
+               let a=["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
+              
+            //    for(i=0;i<5;i++)
+            //    {
+            //     // document.getElementById("red").innerHTML=a[i];
+            //     console.log(a[i]);
+            //    }
+            if(i>=0 && i<=6){
+                document.getElementById("red").innerHTML="today is"+a[i]+"<br>"
+            
+            
+               if(i<=4)
+               {
+                document.getElementById("red").innerHTML="shop will open at the time b/w 9Am to 10Pm";
+               }
+               else{
+                  document.getElementById("red").innerHTML="shop will open at the time b/w 10Am to 2Pm";
+               }
+               }
+               else{
+                document.getElementById("red").innerHTML="invalid data"
+               }
+              
+        </script>
+    </body>
+</html>
