@@ -2,9 +2,52 @@
 <html>
     <head>
         <title>ex</title>
+        <style>
+            /* .div{
+                background-color: antiquewhite;
+                border: 2px solid black;
+                padding: 10px; 
+            } */
+            table{
+                border: 2px solid black;
+                padding: 10px;
+                background-color: aquamarine;
+                margin: 200px auto;
+                text-align: center;
+                border-collapse: collapse;
+            }
+           tr,td{
+            border: 1px solid black;
+            padding: 50px;
+            background-color: darkgoldenrod;
+           }
+           .h{
+            
+           }
+        </style>
     </head>
     <body>
         <p id="red"></p>
+        <div class="div">
+            <table class="green">
+                <tr class="h">
+                    <td colspan="2"></td>
+                   
+                </tr>
+                <tr class="i">
+                    <td>+</td>
+                    <td>-</td>
+                </tr>
+                <tr class="j">
+                    <td>*</td>
+                    <td>/</td>
+                </tr>
+                <tr class="k">
+                <td>%</td>
+                <td>=</td>
+                </tr>
+            </table>
+        </div>
         <script>
             // var num1=3;
             // num2=3;
@@ -42,30 +85,66 @@
 //                 z="enter number";
 //                }
 //  console.log(z)
-               i=prompt("");
-               let a=["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
+
+
+
+            //    i=prompt("");
+            //    let a=["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
               
-            //    for(i=0;i<5;i++)
+            // //    for(i=0;i<5;i++)
+            // //    {
+            // //     // document.getElementById("red").innerHTML=a[i];
+            // //     console.log(a[i]);
+            // //    }
+            // if(i>=0 && i<=6){
+            //     document.getElementById("red").innerHTML=a[i]
+            //    if(i<=4)
             //    {
-            //     // document.getElementById("red").innerHTML=a[i];
-            //     console.log(a[i]);
+            //     document.getElementById("red").innerHTML="shop will open at the time b/w 9Am to 10Pm";
             //    }
-            if(i>=0 && i<=6){
-                document.getElementById("red").innerHTML="today is"+a[i]+"<br>"
-            
-            
-               if(i<=4)
-               {
-                document.getElementById("red").innerHTML="shop will open at the time b/w 9Am to 10Pm";
-               }
-               else{
-                  document.getElementById("red").innerHTML="shop will open at the time b/w 10Am to 2Pm";
-               }
-               }
-               else{
-                document.getElementById("red").innerHTML="invalid data"
-               }
+            //    else{
+            //       document.getElementById("red").innerHTML="shop will open at the time b/w 10Am to 2Pm";
+            //    }
+            //    }
+            //    else{
+            //     document.getElementById("red").innerHTML="invalid data"
+            //    }
               
+
+            // let s=prompt("");
+            // let txt;
+            // a=4;
+            // s/=a;
+            // // document.getElementById("red").innerHTML=s;
+            
+            // if(Number.isInteger(s)){
+            //   txt="yeah its divided by 4";
+            // }
+            // else{
+            //     txt="nope";
+            // }
+            // console.log(txt);
+
+
+            // num1=5;
+            // num2="5";
+            // a=num1==num2;            //comparison operator
+            // console.log(a);
+
+            // a=5;
+            // b="5";
+            // num=a===b;              //strict equality operator
+            // num=a!==b;               //inequality operator
+            // console.log(num);     
+            
+            
+            // a=prompt("");
+            // b=2;                 //ternary operator
+            // let c=(a%b==0)? "even number":"odd number";
+            // console.log(c);
+            
+             
         </script>
+        
     </body>
 </html>
